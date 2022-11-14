@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto:wght@300&display=swap');
+
+:root{
+    --dark-greyy: #5A5A5A;
+    --teal-green: #198787;
+}
+
+/* NAVBAR STYLING */
+.navbar{
+    background: #fff;
+    /* border-bottom: 3px solid #000; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+.fa-chevron-left{
+    color: var(--dark-greyy);
+}
+
+.navbar-title{
+    font-family: 'PT Serif', serif;
+    margin-top: 7px;
+    color: var(--dark-greyy);
+    font-size: large;
+}
+
+/* CARD STYLING */
+.card-title{
+    font-family: 'PT Serif', serif;
+    font-size: medium;
+    color: var(--dark-greyy);
+    margin-bottom: 1.1rem;
+    margin-top: 0.2rem;
+}
+
+.upload-btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    background-color: var(--teal-green);
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
