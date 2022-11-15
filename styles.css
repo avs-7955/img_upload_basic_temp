@@ -40,3 +40,9 @@
     padding-right: 16px;
 }
 
+.upload-btn:hover{
+    color: var(--teal-green);
+    border: 1.5px solid;
+    transition: 0.5s;
+}
+
