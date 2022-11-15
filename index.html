@@ -14,6 +14,8 @@
     <title>Upload Image</title>
     <!-- Linking CSS Style Sheet -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -33,10 +35,18 @@
         <div class="card text-center m-3">
             <div class="card-body">
                 <h5 class="card-title">Upload Image</h5>
-                <a href="#" class="btn upload-btn">Choose from Device</a>
+                <div class="btn upload-btn">
+                    <input type="file" id="upload_file" name="">
+                    Choose from Device
+                </div>
             </div>
         </div>
+        <div class="card img-card text-center m-3">
+            <div class="error-msg" id="error_msg">Not an Image. Please try again.</div>
+            <div class="uploaded-file-view" id="uploaded_view"></div>
+        </div>
     </section>
+    <script src="index.js"></script>
 </body>
 
 </html>
